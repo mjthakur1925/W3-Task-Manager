@@ -48,12 +48,19 @@ Folder Structure
 
 task-manager/ │ ├── controllers/ # Controller functions for handling routes
 ├── models/ # Mongoose models for MongoDB 
+
 ├── public/ # Static assets (CSS, images, client-side JavaScript) 
+
 ├── routes/ # Express route handlers
+
 ├── views/ # EJS templates for rendering HTML
+
 ├── .env # Environment variables
+
 ├── app.js # Express application setup 
+
 └── README.md # Project documentation
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Authentication Flow
 Signup:
 
@@ -71,7 +78,7 @@ Session secret is used for encryption.
 Logout:
 
 User can log out to destroy the session.
-
+#DEMO------
 
 https://github.com/mjthakur1925/W3-Task-Manager/assets/114571796/3e748db9-add8-4196-a9ba-b5bf3d3cda94
 
