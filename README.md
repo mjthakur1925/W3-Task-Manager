@@ -6,6 +6,7 @@ User signup and login functionality with secure password hashing.
 Session management for keeping users authenticated across requests.
 CRUD operations for tasks (Create, Read, Update, Delete).
 Responsive design for desktop and mobile devices.
+#---------------------------------------------------------------
 Technologies Used
 Node.js
 Express.js
@@ -15,6 +16,7 @@ express-session (for session management)
 HTML5
 CSS3 (with Bootstrap for styling)
 JavaScript (Frontend and Backend)
+---------------------------------------------------------------------------------------------------------
 Getting Started
 To run this project locally, follow these steps:
 
@@ -23,34 +25,35 @@ Clone the repository:
 bash
 Copy code
 git clone https://github.com/your-username/task-manager.git
-Navigate to the project directory:
-
-bash
-Copy code
+1.Navigate to the project directory:
 cd task-manager
-Install dependencies:
 
-bash
-Copy code
-npm install
-Set up environment variables:
+2.Install dependencies:
+npm install express express-session bcrypt
 
+
+3.Set up environment variables:
 Create a .env file in the root directory.
-Add the following environment variables:
-makefile
-Copy code
-PORT=3000 MONGODB_URI=your_mongodb_connection_string SESSION_SECRET=your_session_secret
-Start the server:
 
-bash
-Copy code
+4. Add the following environment variables:
+makefile
+PORT=3000 MONGODB_URI=your_mongodb_connection_string SESSION_SECRET=your_session_secret
+5.Start the server:
 npm start
-Open your browser and visit http://localhost:3000 to view the application.
+
+6. Open your browser and visit http://localhost:3000 to view the application.
 
 Folder Structure
-bash
-Copy code
-task-manager/ │ ├── controllers/ # Controller functions for handling routes ├── models/ # Mongoose models for MongoDB ├── public/ # Static assets (CSS, images, client-side JavaScript) ├── routes/ # Express route handlers ├── views/ # EJS templates for rendering HTML ├── .env # Environment variables ├── app.js # Express application setup └── README.md # Project documentation
+
+
+task-manager/ │ ├── controllers/ # Controller functions for handling routes
+├── models/ # Mongoose models for MongoDB 
+├── public/ # Static assets (CSS, images, client-side JavaScript) 
+├── routes/ # Express route handlers
+├── views/ # EJS templates for rendering HTML
+├── .env # Environment variables
+├── app.js # Express application setup 
+└── README.md # Project documentation
 Authentication Flow
 Signup:
 
