@@ -77,8 +77,15 @@ Express session middleware is used for managing sessions.
 Session secret is used for encryption.
 Logout:
 
+
 User can log out to destroy the session.
+
+
+
 #DEMO------
 
-https://github.com/mjthakur1925/W3-Task-Manager/assets/114571796/3e748db9-add8-4196-a9ba-b5bf3d3cda94
+
+https://github.com/mjthakur1925/W3-Task-Manager/assets/114571796/51e4fff7-e410-4862-9653-2cd9eb635f66
+
+https://github.com/mjthakur1925/W3-Task-Manager/assets/114571796/496d2687-77ce-4f26-95f0-ad327a4922f5
 
